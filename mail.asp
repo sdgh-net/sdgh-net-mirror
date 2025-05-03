@@ -1,10 +1,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<TITLE>»¶Ó­Ê¹ÓÃÆóÒµµç×ÓÓÊ¾Ö</TITLE>
+<TITLE>ï¿½ï¿½Ó­Ê¹ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½</TITLE>
 <!--File: LOGIN.HTML-->
 <META content="MSHTML 6.00.2800.1226" name=GENERATOR></HEAD>
 <script language="JavaScript"> 
-	  var current = "µÇÂ¼";
-  var help     = "»ñµÃµ±Ç°ÐÅÏ¢µÄ°ïÖú: " + current;
+	  var current = "ï¿½ï¿½Â¼";
+  var help     = "ï¿½ï¿½Ãµï¿½Ç°ï¿½ï¿½Ï¢ï¿½Ä°ï¿½ï¿½ï¿½: " + current;
   var headerMessage = "";
 // Refresh screen to virtual IP-less domain based on URL
 if (document.referrer.indexOf("login.")==-1 && 
@@ -55,7 +55,7 @@ function smartLogin(){
   // Check whether a domain was entered along with the userid.
   // If not, concatenate the userid and current domain.
   if (document.logon.userid.value.indexOf("@")==-1){
-    var fullUserid = document.logon.userid.value + "@sdgh.net";
+    var fullUserid = document.logon.userid.value + "@sdgh.eu.org";
     document.logon.userid.value = fullUserid;
   } 
 	// set session-only pw and username cookies for calendar server autologin - new in v7
@@ -76,35 +76,35 @@ function smartLogin(){
       {
         url = '//' + sHelp + '.html';
         helpWin=window.open("",sHelp,"width=400,height=400,status=no,toolbar=no,menubar=no,scrollbars=yes,resizable=yes");
-		helpWin.document.write('<HTML><HEAD><TITLE>ÔÚÏß°ïÖú</TITLE></HEAD><FRAMESET BORDER=0 ROWS="24, *">');
+		helpWin.document.write('<HTML><HEAD><TITLE>ï¿½ï¿½ï¿½ß°ï¿½ï¿½ï¿½</TITLE></HEAD><FRAMESET BORDER=0 ROWS="24, *">');
 		helpWin.document.write('<FRAME MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="no" NAME="toolbar" NORESIZE SRC="helptoolbar.html">');
 		helpWin.document.write('<FRAME MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="auto" NAME="mainPage" src="' + url + '">');
 		helpWin.document.write('<NOFRAMES>Sorry, you need to have a browser that supports frames to view this file.</NOFRAMES>');
 		helpWin.document.write('</FRAMESET></HTML>');
       }
   var current;
-  var menu     = "·µ»Øµ½Ö÷²Ëµ¥";
-  var compose  = "´´½¨Ò»¸öÐÂÓÊ¼þ";
-  var asearch  = "ËÑË÷ËùÓÐÓÊ¼þ";
-  var logout   = "µÇ³ö";
-  var check	= "°´´Ë¿ªÊ¼¼ì²éËùÓÐµØ·½";
+  var menu     = "ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½Ëµï¿½";
+  var compose  = "ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½";
+  var asearch  = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½";
+  var logout   = "ï¿½Ç³ï¿½";
+  var check	= "ï¿½ï¿½ï¿½Ë¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµØ·ï¿½";
   var CSSstatus = "0";
-  var CSSObject = '²Ëµ¥Ñ¡Ïî';
-  var CSSselect = "ÇëÑ¡ÔñÊÕ¼þÕß";
-  var Preferences = "ÓÊÏäÉèÖÃ";
-  var subfold = "ÓÊÏä¹ÜÀí";
-  var ab = "µØÖ·²¾";
-  var calendar = "ÈÕ³Ì±í";
-  var mailboxname = "ÓÊ¼þÏä";
-  var passwordpassword = "ÐÞ¸ÄÃÜÂë";
-  var planplanplanplan = "ÐÞ¸ÄÊý×ÖÇ©Ãû";
-  var signaturesignature = "ÐÞ¸ÄÎÒµÄÇ©Ãû";
-  var userprefuserpref = "ÓÃ»§¸öÐÔ»¯ÉèÖÃ";
-  var chgvacchgvacchgvac = "Íâ³ö×Ô¶¯»Ø¸´";
-  var chgfwdchgfwdchgfwd = "ÐÞ¸ÄÓÊ¼þ×ª·¢";
-  var chgldapchgldapchgldap = "¸Ä±äÓÃ»§ÐÅÏ¢";
-  var autoresplinkautoresplink = "±à¼­×Ô¶¯»Ø¸´";
-  var chgruleschgrules = "ÐÞ¸Ä´¦Àí¹æÔò";
+  var CSSObject = 'ï¿½Ëµï¿½Ñ¡ï¿½ï¿½';
+  var CSSselect = "ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½Õ¼ï¿½ï¿½ï¿½";
+  var Preferences = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+  var subfold = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
+  var ab = "ï¿½ï¿½Ö·ï¿½ï¿½";
+  var calendar = "ï¿½Õ³Ì±ï¿½";
+  var mailboxname = "ï¿½Ê¼ï¿½ï¿½ï¿½";
+  var passwordpassword = "ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½";
+  var planplanplanplan = "ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½";
+  var signaturesignature = "ï¿½Þ¸ï¿½ï¿½Òµï¿½Ç©ï¿½ï¿½";
+  var userprefuserpref = "ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½ï¿½ï¿½";
+  var chgvacchgvacchgvac = "ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½Ø¸ï¿½";
+  var chgfwdchgfwdchgfwd = "ï¿½Þ¸ï¿½ï¿½Ê¼ï¿½×ªï¿½ï¿½";
+  var chgldapchgldapchgldap = "ï¿½Ä±ï¿½ï¿½Ã»ï¿½ï¿½ï¿½Ï¢";
+  var autoresplinkautoresplink = "ï¿½à¼­ï¿½Ô¶ï¿½ï¿½Ø¸ï¿½";
+  var chgruleschgrules = "ï¿½Þ¸Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
   // convert all characters to lowercase to simplify testing 
   var agt=navigator.userAgent.toLowerCase();
   // Note: On IE5, these return 4, so use is_ie5up to detect IE5. 
@@ -131,8 +131,8 @@ function smartLogin(){
   function chgTextBox(form)
   {
     var i;
-	var newOpt = "&lt;ÐÂ½¨&gt;";
-	var deleteOpt = "&lt;É¾³ý&gt;";
+	var newOpt = "&lt;ï¿½Â½ï¿½&gt;";
+	var deleteOpt = "&lt;É¾ï¿½ï¿½&gt;";
 
     i = form.subarea.selectedIndex;
   
@@ -161,21 +161,21 @@ function smartLogin(){
 
   function doButton(sButton)
   {
-    if (sButton == "ËÑË÷"
-        || sButton == "È¡Ïû")
+    if (sButton == "ï¿½ï¿½ï¿½ï¿½"
+        || sButton == "È¡ï¿½ï¿½")
       document.Search.search_ok.value = sButton;
       document.Search.submit();
   }
 
   function doButton2(TopBottom,sButton)
   {
-    if (sButton=="ÏÂÒ»·â"
-        || sButton=="ÉÏÒ»·â"
-        || sButton=="»Ø¸´"
-        || sButton=="»Ø¸´ËùÓÐ"
-        || sButton=="ÏòÇ°"
-        || sButton=="É¾³ý"
-        || sButton=="ÒÆ¶¯µ½")
+    if (sButton=="ï¿½ï¿½Ò»ï¿½ï¿½"
+        || sButton=="ï¿½ï¿½Ò»ï¿½ï¿½"
+        || sButton=="ï¿½Ø¸ï¿½"
+        || sButton=="ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½"
+        || sButton=="ï¿½ï¿½Ç°"
+        || sButton=="É¾ï¿½ï¿½"
+        || sButton=="ï¿½Æ¶ï¿½ï¿½ï¿½")
     {
       if (TopBottom=="Top")
       {
@@ -198,16 +198,16 @@ function smartLogin(){
 
   function doButton3(sButton)
   {
-    if (sButton=="TopÏÂÒ³"
+    if (sButton=="Topï¿½ï¿½Ò³"
        || sButton=="TopÄ©Ò³"
-       || sButton=="TopÌø×ª"
-       || sButton=="TopÊ×Ò³"
-       || sButton=="TopÉÏÒ³"
-       || sButton=="ÏÂÒ³"
+       || sButton=="Topï¿½ï¿½×ª"
+       || sButton=="Topï¿½ï¿½Ò³"
+       || sButton=="Topï¿½ï¿½Ò³"
+       || sButton=="ï¿½ï¿½Ò³"
        || sButton=="Ä©Ò³"
-       || sButton=="Ìø×ª"
-       || sButton=="Ê×Ò³"
-       || sButton=="ÉÏÒ³")
+       || sButton=="ï¿½ï¿½×ª"
+       || sButton=="ï¿½ï¿½Ò³"
+       || sButton=="ï¿½ï¿½Ò³")
     {
       var nCounter = document.forms.length;
       var nForms   = 0;
@@ -219,10 +219,10 @@ function smartLogin(){
 		}
           nForms++
       }
-    } else if (sButton=="É¾³ý"
-              || sButton=="É¾³ýËùÓÐ"
-              || sButton=="ÒÆ¶¯µ½"
-              || sButton=="µ½ Mailbox")
+    } else if (sButton=="É¾ï¿½ï¿½"
+              || sButton=="É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+              || sButton=="ï¿½Æ¶ï¿½ï¿½ï¿½"
+              || sButton=="ï¿½ï¿½ Mailbox")
       {
         document.mboxsummary.imail_action.value=sButton;
         document.mboxsummary.submit();
@@ -326,7 +326,7 @@ function smartLogin(){
 	    me.checked = false;
 	  }
     }
-	doButton3('É¾³ý');
+	doButton3('É¾ï¿½ï¿½');
   }
 
   function selectMe(me, match)
@@ -589,14 +589,14 @@ border=0>
                                 <TD height=30>&nbsp;</TD>
                               </TR>
                               <TR>
-                                <TD align=right width="29%" height=30  style="font-size:9pt ">ÓÊÏäÕÊºÅ</TD>
+                                <TD align=right width="29%" height=30  style="font-size:9pt ">ï¿½ï¿½ï¿½ï¿½ï¿½Êºï¿½</TD>
                                 <TD height=30>
                                     <INPUT NAME="userid" id="userid2"  
                               style="FONT-FAMILY: Tahoma" size=20>
                                 </TD>
                               </TR>
                               <TR>
-                                <TD align=right width="29%"  style="font-size:9pt ">µÇÂ¼ÃÜÂë</TD>
+                                <TD align=right width="29%"  style="font-size:9pt ">ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½</TD>
                                 <TD>
                                     <INPUT 
                               NAME="passwd" type=password id="passwd2"  
@@ -617,9 +617,9 @@ border=0>
                   face="Arial, Helvetica, sans-serif"><BR>
                                           <INPUT NAME="Expire_Cache" TYPE="checkbox" id="Expire_Cache" VALUE="1" >
                         </FONT></B><FONT 
-                  face="Arial, Helvetica, sans-serif">°²È«ä¯ÀÀ(Ò³Ãæ×Ô¶¯¹ýÆÚ)<B><br>
+                  face="Arial, Helvetica, sans-serif">ï¿½ï¿½È«ï¿½ï¿½ï¿½(Ò³ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½)<B><br>
                         <INPUT NAME="Use_Cookie" TYPE="checkbox" id="Use_Cookie" VALUE="1" >
-                        </B>Ê¹ÓÃCookie±£´æÃÜÂë<B><br>
+                        </B>Ê¹ï¿½ï¿½Cookieï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<B><br>
                                 </B></FONT></FONT></TD>
                               </TR>
                             </TBODY>
@@ -630,7 +630,7 @@ border=0>
               </FORM>
                 <table width="100%"  border="0" cellspacing="0" cellpadding="0">
                   <tr>
-                    <td height="26" valign="bottom"><span class="style2"> ÕËºÅÒªÇóÊäÈëÈ«³Æ£¬Èç£º<b>name@xxxxx.com</b></span></td>
+                    <td height="26" valign="bottom"><span class="style2"> ï¿½Ëºï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½Æ£ï¿½ï¿½ç£º<b>name@xxxxx.com</b></span></td>
                   </tr>
                   <tr>
                     <td><table width="100%" height="44"  border="0" cellpadding="0" cellspacing="0">
@@ -638,7 +638,7 @@ border=0>
                         <td height="10"></td>
                       </tr>
                       <tr>
-                        <td height="34"   style="font-size:9pt "><font color="#666666">µ±Ç°Ê±¼ä:
+                        <td height="34"   style="font-size:9pt "><font color="#666666">ï¿½ï¿½Ç°Ê±ï¿½ï¿½:
                               Thursday, May 01, 2025 09:24:16
                           </font></td>
                       </tr>
